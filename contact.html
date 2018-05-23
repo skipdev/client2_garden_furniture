@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+<div id='image'>
+    <img
+    	src="img/home.jpg"
+    />
+</div> <!-- end image -->
+
+<div id="op"></div>
+
+<sidebar>
+<nav class="topnav" id="myTopnav">
+    <ul>
+  <li><a href="index.html">HOME</a><li>
+  <li id="ser"><a href="about.html">GALLERY</a><li>
+  <li><a href="gallery.html">GALLERY</a><li>
+  <!--<li><a href="testimonials.html">TESTIMONIALS</a><li>-->
+  <li><a class="active">CONTACT</a><li>
+     </ul>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i><li>
+  </a>
+</nav>
+</sidebar>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<div id="contact-form">
+<div class="top-content">
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 form-box">
+                    
+                	<div class="form-top">
+                		<div class="form-top-left">
+                			<h3>Contact us</h3>
+                    		<p>Fill in the form below to send us a message:</p>
+                		</div>
+                		<div class="form-top-right">
+                			<i class="fa fa-envelope"></i>
+                		</div>
+                    </div>
+                    
+                    <div class="form-bottom contact-form">
+                      <form role="form" action="assets/contact.php" method="post">
+                          <div class="form-group">
+                      		<label class="sr-only" for="contact-name">Name</label>
+                          	<input type="text" name="name" placeholder="Name..." class="contact-name form-control" id="contact-name">
+                          </div>
+                      	<div class="form-group">
+                      		<label class="sr-only" for="contact-email">Email</label>
+                          	<input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
+                          </div>
+                          <br>
+                          <div class="form-group">
+                          	<label class="sr-only" for="contact-subject">Subject</label>
+                          	<input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject">
+                          </div>
+                          <br>
+                          <div class="form-group">
+                          	<label class="sr-only" for="contact-message">Message</label>
+                          	<textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea>
+                          </div>
+                          <br>
+                          <button type="submit" class="btn">Send message</button>
+                      </form>
+                    </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div> <!-- end contact form -->
+
+<section id="footer">
+    <footer>
+        <p id="foot1">Aber Landscaping 2018 </p>
+        <p id="slash"> // </p>
+        <p id="foot2">07961722329</p>
+        <p id="foot3">website by <a href="https://dev.stephyx.co.uk">stephyx.co.uk</a></p>
+    </footer>
+</section> <!-- end footer -->
+
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.backstretch.min.js"></script>
+<script src="assets/js/retina-1.1.0.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+        
+</body>
+</html>

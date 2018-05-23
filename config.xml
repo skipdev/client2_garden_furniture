@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle="Photos"
+>
+  <image imageURL="images/gallery/1.jpg"
+	thumbURL="images/gallery/1.jpg"
+	linkURL="images/gallery/.1jpg"
+	linkTarget="_blank">
+	<title></title>
+  </image>
+  <image imageURL="images/gallery/2.jpg"
+	thumbURL="images/gallery/2.jpg"
+	linkURL="images/gallery/2.jpg"
+	linkTarget="_blank">
+	<caption></caption>
+  </image>
+  <image imageURL="images/gallery/3.jpg"
+	thumbURL="images/gallery/3.jpg"
+	linkURL="images/gallery/3.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/4.jpg"
+	thumbURL="images/gallery/4.jpg"
+	linkURL="images/gallery/4.jpg"
+	linkTarget="_blank">
+	<title></title>
+	<caption></caption>
+  </image>
+  <image imageURL="images/gallery/5.jpg"
+	thumbURL="images/gallery/5.jpg"
+	linkURL="images/gallery/5.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/6.jpg"
+	thumbURL="images/gallery/6.jpg"
+	linkURL="images/gallery/6.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/7.jpg"
+	thumbURL="images/gallery/7.jpg"
+	linkURL="images/gallery/7.jpg"
+	linkTarget="_blank">
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/8.jpg"
+	thumbURL="images/gallery/8.jpg"
+	linkURL="images/gallery/8.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/9.jpg"
+	thumbURL="images/gallery/9.jpg"
+	linkURL="images/gallery/9.jpg"
+	linkTarget="_blank">
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/10.jpg"
+	thumbURL="images/gallery/10.jpg"
+	linkURL="images/gallery/10.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/11.jpg"
+	thumbURL="images/gallery/11.jpg"
+	linkURL="images/gallery/11.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  <image imageURL="images/gallery/12.jpg"
+	thumbURL="images/gallery/12.jpg"
+	linkURL="images/gallery/12.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/13.jpg"
+	thumbURL="images/gallery/13.jpg"
+	linkURL="images/gallery/13.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/14.jpg"
+	thumbURL="images/gallery/14.jpg"
+	linkURL="images/gallery/14.jpg"
+	linkTarget="_blank">
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/15.jpg"
+	thumbURL="images/gallery/15.jpg"
+	linkURL="images/gallery/15.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/16.jpg"
+	thumbURL="images/gallery/16.jpg"
+	linkURL="images/gallery/16.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/17.jpg"
+	thumbURL="images/gallery/17.jpg"
+	linkURL="images/gallery/17.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/18.jpg"
+	thumbURL="images/gallery/18.jpg"
+	linkURL="images/gallery/18.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/19.jpg"
+	thumbURL="images/gallery/19.jpg"
+	linkURL="images/gallery/19.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/20.jpg"
+	thumbURL="images/gallery/20.jpg"
+	linkURL="images/gallery/20.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/21.jpg"
+	thumbURL="images/gallery/21.jpg"
+	linkURL="images/gallery/21.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/gallery/22.jpg"
+	thumbURL="images/gallery/22.jpg"
+	linkURL="images/gallery/22.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+</juiceboxgallery>

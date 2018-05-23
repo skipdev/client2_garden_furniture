@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/testimonial_bubbles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script type="text/javascript" src="ja/testimonial.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Testimonials</title>
+</head>
+
+<body>
+
+<div id='image'>
+    <img
+    	src="img/home.jpg"
+    />
+</div> <!-- end image -->
+
+<div id="op"></div>
+
+<sidebar>
+<nav class="topnav" id="myTopnav">
+    <ul>
+  <li><a href="index.html">HOME</a><li>
+  <li id="ser"><a href="services.html">SERVICES</a><li>
+  <li><a href="photos.html">PHOTOS</a><li>
+  <li><a class="active">TESTIMONIALS</a><li>
+  <li><a href="contact.html">CONTACT</a><li>
+     </ul>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i><li>
+  </a>
+</nav>
+</sidebar>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<div class="testimonials-out">
+  <div class="testimonials">
+    <div id="testimonials" class="owl-carousel">
+      <div class="item">
+        <p>I hired Kevin to demolish a chimney stack and make good the roof. I must say I was very pleased with the result, everything cleaned up and all rubbish taken away, also the cheapest quote I got and would recommend him to others.</p>
+        <div class="author-cont"> <!--<img src="images/tim-cook.jpg" alt="photo" />-->
+          <div class="name">phil1_36</div>
+          <div class="position">22nd Oct, 2016</div>
+        </div>
+      </div>
+      <div class="item">
+        <p class="test2">Kevin and his team were hired to paint the exterior of my house. Even though the weather was bad they came around whenever there was a dry spell to get it finished, they always cleared up after themselves and Kevin kept in contact to make sure we were happy with the progress. Once the painting was finished I asked Kevin if he could put a fence up for me and again this was done to a high standard with no mess. I would happily hire G Maintenence again to do work and would recommend them to friends and family.</p>
+        <div class="author-cont">
+          <div class="name">shane2515</div>
+          <div class="position">23rd Jan, 2014</div>
+        </div>
+      </div>
+      <div class="item">
+        <p>Kevin painted the hall, stairs and three other rooms for me. I will use Kevin for all my painting in future, good lads with him too. He and his team came when they said they would, completed job in the time frame set and a good and fair price. Trustworthy and clean and tidy workers.</p>
+        <div class="author-cont">
+          <div class="name">Guest Account</div>
+          <div class="position">Unknown Date</div>
+        </div>
+      </div>
+      <div class="item">
+        <p class="test2">Kevin, his son Josh And their staff did an amazing job on restoring the chimney in my house that had been out of commission for decades. They consulted me at every step and charged a very competitive price. Additionally, they offered some roofing improvements that were gratefully accepted for a small additional fee. I'm now enjoying my new stove, have a leak free chimney on my other elevation and all tiles repaired on a massive and steep roof. I will definitely be using Kevin and the boys again for other jobs. Trustworthy, tidy and full of expertise. Many thanks, chaps.</p>
+        <div class="author-cont">
+          <div class="name">bradbeetle</div>
+          <div class="position">19th Dec, 2014</div>
+        </div>
+      </div>
+      <div class="item">
+        <p>Kevin and his team did a great job re landscaping the garden including removing a garage, tarmac driveway and rubble. They installed a retaining wall; laid a superb block paving driveway and Indian stone path. They also created new beds and laid new lawn. The cheerful and colourful team worked across Christmas in some of the worst weather of the year and finally finished yesterday. Good job Kevin and the team.</p>
+        <div class="author-cont">
+          <div class="name">pete_mahon</div>
+          <div class="position">26th Feb, 2015</div>
+        </div>
+      </div>
+      <div class="item">
+        <p class="test2">Hired to build low garden wall on sloping garden. Kevin and team arrived early and worked hard. Once groundwork completed, the wall was built by a stonemason brought in by Kevin. His work was excellent and we were really delighted with the wall, so much so, we hired the team to build a low brick wall along the edge of our driveway as well, and again this was a job we were very pleased with. Only drawback was that we had to order and pay for all materials up front.</p>
+        <div class="author-cont">
+          <div class="name">spikey1_43</div>
+          <div class="position">1st Jul, 2015</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script>
+$(document).ready(function() {
+	$('#testimonials').owlCarousel({
+		loop: true,
+		margin: 0,
+		nav: true,
+		dots: true,
+		responsive:{
+			0:{
+				items: 1
+			},
+			480:{
+				items: 1
+			},
+			768:{
+				items: 2
+			},
+			992:{
+				items: 2
+			},
+			1200:{
+				items: 3
+			}
+		}
+	});	
+});
+</script>
+</script>
+
+<section id="footer">
+    <footer>
+        <p id="foot1">Aber Landscaping 2018 </p>
+        <p id="slash"> // </p>
+        <p id="foot2">07961722329</p>
+        <p id="foot3">website by <a href="https://dev.stephyx.co.uk">dev.stephyx.co.uk</a></p>
+    </footer>
+</section> <!-- end footer -->
+
+</body>
+</html>
