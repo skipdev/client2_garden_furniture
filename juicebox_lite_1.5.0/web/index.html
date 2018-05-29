@@ -1,0 +1,65 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Gallery</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<style type="text/css" media="screen">
+	html, body	{ height:100%; }
+	body {
+
+		overflow:auto;
+		background-color: #eee;
+		color:#333;
+		font-family:sans-serif;
+		xfont-size:20px;
+		width:800px;
+	}
+	a {
+		color:#8F3763;
+	}
+
+	.link-button{
+		color:#8F3763;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	
+	</style>
+
+	 <script src="jbcore/juicebox.js"></script>
+
+</head>
+<body>
+	<p><span id="button-1" class="link-button" >Manicures</span> | <span id="button-2" class="link-button">Nail Designs</span> | <span id="button-3" class="link-button">Pedicures</span> | <span id="button-4" class="link-button">Eyelashes</span> | <span id="button-5" class="link-button">Certificates</span> | <span id="button-6" class="link-button">Extra</span></p>
+
+	<div id="juicebox-container"></div>
+
+	<script>
+
+	$(document).ready(function() {
+		//load gallery 1
+		loadGallery('gallery1/');
+		//initialize top buttons
+		$("#button-1").on("click", function(){loadGallery('gallery1/');});
+		$("#button-2").on("click", function(){loadGallery('gallery2/');});
+		$("#button-3").on("click", function(){loadGallery('gallery3/');});
+		$("#button-4").on("click", function(){loadGallery('gallery4/');});
+		$("#button-5").on("click", function(){loadGallery('gallery5/');});
+		$("#button-6").on("click", function(){loadGallery('gallery6/');});
+	});
+
+	function loadGallery(base) {
+		new juicebox({
+			baseUrl : base,
+			containerId : 'juicebox-container',
+			backgroundColor : '222222',
+			galleryWidth:'700',
+			galleryHeight:'600'
+		});
+	}
+	</script>
+</body>
+</html>

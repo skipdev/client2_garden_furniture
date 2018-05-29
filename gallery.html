@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="css/photos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="juicebox_lite_1.5.0/web/jbcore/juicebox.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <script src="juicebox_lite_1.5.0/web/jbcore/juicebox.js"></script>
+		<style type="text/css" media="screen">
+			.link-button{
+				color:#8F3763;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		</style>
     <title>gallery</title>
 </head>
 
@@ -15,7 +25,7 @@
 
 <div id='image'>
     <img
-    	src="img/home.jpg"
+    	src="images/gallery/3.jpg"
     />
 </div> <!-- end image -->
 
@@ -25,7 +35,7 @@
 <nav class="topnav" id="myTopnav">
     <ul>
   <li><a href="index.html">HOME</a><li>
-  <li id="ser"><a href="about.html">about</a><li>
+  <li id="ser"><a href="about.html">ABOUT</a><li>
   <li><a class="active">GALLERY</a><li>
   <!--<li><a href="testimonials.html">TESTIMONIALS</a><li>-->
   <li><a href="contact.html">CONTACT</a><li>
@@ -47,19 +57,35 @@ function myFunction() {
 }
 </script>
 
-
-<!--START JUICEBOX EMBED-->
 <div id="gallery">
-<script src="jbcore/juicebox.js"></script>
+<!--START JUICEBOX EMBED-->
+<p align="center"><span id="button-1" class="link-button" >Garden Furniture</span> | <span id="button-2" class="link-button">Coffee/Dining Tables</span> | <span id="button-3" class="link-button">Timber Slabs</span> </p>
+
+<div id="juicebox-container" style="margin: 0 auto;"></div>
+
 <script>
-new juicebox({
-	containerId: 'juicebox-container',
-    backgroundColor: "rgba(0, 0, 0, 0.5)"
+
+$(document).ready(function() {
+	//load gallery 1
+	loadGallery('juicebox_lite_1.5.0/web/gallery1/');
+	//initialize top buttons
+	$("#button-1").on("click", function(){loadGallery('juicebox_lite_1.5.0/web/gallery1/');});
+	$("#button-2").on("click", function(){loadGallery('juicebox_lite_1.5.0/web/gallery2/');});
+	$("#button-3").on("click", function(){loadGallery('juicebox_lite_1.5.0/web/gallery3/');});
 });
+
+function loadGallery(base) {
+	new juicebox({
+		baseUrl : base,
+		containerId : 'juicebox-container',
+		backgroundColor: "rgba(0, 0, 0, 0.5)",
+		galleryWidth: '100%',
+		galleryHeight: '95%',
+	});
+}
 </script>
-<div id="juicebox-container"></div>
-</div>
 <!--END JUICEBOX EMBED-->
+</div>
 
 <section id="footer">
     <footer>

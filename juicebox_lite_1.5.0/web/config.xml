@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle="Manicures"
+>
+  <image imageURL="images/MANICUREBEST.jpg"
+	thumbURL="thumbs/MANICUREBEST.jpg"
+	linkURL="images/MANICUREBEST.jpg"
+	linkTarget="_blank">
+	<title>Welcome to Ela's Beauty Gallery</title>
+  </image>
+  <image imageURL="images/NAILSBEST.jpg"
+	thumbURL="thumbs/NAILSBEST.jpg"
+	linkURL="images/NAILSBEST.jpg"
+	linkTarget="_blank">
+	<title>Title</title>
+	<caption>Caption<caption>
+  </image>
+  <image imageURL="images/MANICUREBEST.jpg"
+	thumbURL="thumbs/MANICUREBEST.jpg"
+	linkURL="images/MANICUREBEST.jpg"
+	linkTarget="_blank">
+    <title>Title</title>
+    <caption>Caption</caption>
+  </image>
+
+</juiceboxgallery>
+
+<juiceboxgallery
+	galleryTitle="Pedicures"
+>
+  <image imageURL="images/MANICUREBEST.jpg"
+	thumbURL="thumbs/MANICUREBEST.jpg"
+	linkURL="images/MANICUREBEST.jpg"
+	linkTarget="_blank">
+	<title>Welcome to Ela's Beauty Gallery</title>
+  </image>
+  <image imageURL="images/NAILSBEST.jpg"
+	thumbURL="thumbs/NAILSBEST.jpg"
+	linkURL="images/NAILSBEST.jpg"
+	linkTarget="_blank">
+	<title>Title</title>
+	<caption>Caption<caption>
+  </image>
+  <image imageURL="images/MANICUREBEST.jpg"
+	thumbURL="thumbs/MANICUREBEST.jpg"
+	linkURL="images/MANICUREBEST.jpg"
+	linkTarget="_blank">
+    <title>Title</title>
+    <caption>Caption</caption>
+  </image>
+
+</juiceboxgallery>
+
+<juiceboxgallery
+	galleryTitle="Eyelash"
+>
+  <image imageURL="images/MANICUREBEST.jpg"
+	thumbURL="thumbs/MANICUREBEST.jpg"
+	linkURL="images/MANICUREBEST.jpg"
+	linkTarget="_blank">
+	<title>Welcome to Ela's Beauty Gallery</title>
+  </image>
+  <image imageURL="images/NAILSBEST.jpg"
+	thumbURL="thumbs/NAILSBEST.jpg"
+	linkURL="images/NAILSBEST.jpg"
+	linkTarget="_blank">
+	<title>Title</title>
+	<caption>Caption<caption>
+  </image>
+  <image imageURL="images/MANICUREBEST.jpg"
+	thumbURL="thumbs/MANICUREBEST.jpg"
+	linkURL="images/MANICUREBEST.jpg"
+	linkTarget="_blank">
+    <title>Title</title>
+    <caption>Caption</caption>
+  </image>
+
+</juiceboxgallery>
+
+<juiceboxgallery
+	galleryTitle="Certificates and Work"
+>
+  <image imageURL="images/MANICUREBEST.jpg"
+	thumbURL="thumbs/MANICUREBEST.jpg"
+	linkURL="images/MANICUREBEST.jpg"
+	linkTarget="_blank">
+	<title>Welcome to Ela's Beauty Gallery</title>
+  </image>
+  <image imageURL="images/NAILSBEST.jpg"
+	thumbURL="thumbs/NAILSBEST.jpg"
+	linkURL="images/NAILSBEST.jpg"
+	linkTarget="_blank">
+	<title>Title</title>
+	<caption>Caption<caption>
+  </image>
+  <image imageURL="images/MANICUREBEST.jpg"
+	thumbURL="thumbs/MANICUREBEST.jpg"
+	linkURL="images/MANICUREBEST.jpg"
+	linkTarget="_blank">
+    <title>Title</title>
+    <caption>Caption</caption>
+  </image>
+
+</juiceboxgallery>

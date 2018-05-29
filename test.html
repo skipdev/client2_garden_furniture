@@ -1,84 +1,48 @@
-body {
-  grid-template-columns: 20vw 60vw 20vw;
-  grid-template-rows: 15vh 20vh 30vh 25vh 25vh 5vh;
-}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ela's Beauty Room</title>
+		<script src="juicebox_lite_1.5.0/web/jbcore/juicebox.js"></script>
+		<style type="text/css" media="screen">
+			.link-button{
+				color:#8F3763;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
 
-sidebar {
-    grid-row: 1;
-    grid-column: 1 / span 3;
-}
+<!-- Gallery -->
 
+<p align="center"><span id="button-1" class="link-button" >Manicures</span> | <span id="button-2" class="link-button">Nail Designs</span> | <span id="button-3" class="link-button">Pedicures</span> | <span id="button-4" class="link-button">Eyelashes</span> | <span id="button-5" class="link-button">Certificates</span> | <span id="button-6" class="link-button">Extra</span></p>
 
-#image {
-    grid-row: 1 / span 5;
-    grid-column: 1 / span 3;
-}
+<div id="juicebox-container" style="margin: 0 auto;"></div>
 
-#op {
-    grid-row: 1 / span 5;
-    grid-column: 1 / span 3;
-    background-color: rgba(0, 0, 0, 0.4);
-}
+<script>
 
-#contact-form {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 3;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    color: white;
-    border-radius: 5px;
-    padding: 5vh;
-}
+$(document).ready(function() {
+	//load gallery 1
+	loadGallery('juicebox_lite_1.5.0/web/gallery1/');
+	//initialize top buttons
+	$("#button-1").on("click", function(){loadGallery('juicebox_lite_1.5.0/web/gallery1/');});
+	$("#button-2").on("click", function(){loadGallery('juicebox_lite_1.5.0/web/gallery2/');});
+	$("#button-3").on("click", function(){loadGallery('juicebox_lite_1.5.0/web/gallery3/');});
+	$("#button-4").on("click", function(){loadGallery('juicebox_lite_1.5.0/web/gallery4/');});
+	$("#button-5").on("click", function(){loadGallery('juicebox_lite_1.5.0/web/gallery5/');});
+	$("#button-6").on("click", function(){loadGallery('juicebox_lite_1.5.0/web/gallery6/');});
+});
 
-label {
-    padding: 1vw;
+function loadGallery(base) {
+	new juicebox({
+		baseUrl : base,
+		containerId : 'juicebox-container',
+		backgroundColor : '222222',
+		galleryWidth: '100%',
+		galleryHeight: '95%',
+	});
 }
+</script>
 
-input[type=text], [type=email], [type=tel], textarea {
-    height: 100% !important;
-    width: 100%; 
-    margin: -.3vh;
-    padding: 1vh;
-    border: 2px solid #ccc;
-    border-radius: 5px; 
-    box-sizing: border-box;
-    float: right;
-}
-
-textarea {
-    margin: 1vh;
-    padding-bottom: 10vh;
-}
-
-#name, #surname, #email, #phone{
-    width: 65%
-}
-
-input[type=submit] {
-    cursor: pointer;
-    margin-top: 5vh;
-    background: rgba(0, 0, 0, .8);
-    color: white;
-    text-align: center;
-    padding: 2vh 23vw;
-    border-radius: 5px;
-}
-
-#footer {
-    grid-row: 6;
-    grid-column: 1 / span 3;
-}
-
-@media (min-width: 1000px) {
-    body {
-      grid-template-columns: 20vw 60vw 20vw;
-      grid-template-rows: 15vh 25vh 25vh 25vh 5vh 5vh;
-    }
-}
-
-@media (max-width: 1000px) {
-    body {
-      grid-template-columns: 20vw 60vw 20vw;
-      grid-template-rows: 15vh 25vh 50vh 40vh 5vh 5vh;
-    }
-}
+	</body>
+</html>

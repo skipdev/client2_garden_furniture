@@ -22,7 +22,7 @@ sidebar {
 #op {
     grid-row: 1 / span 4;
     grid-column: 1 / span 3;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 #gallery {
