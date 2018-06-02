@@ -67,6 +67,6 @@ input[type=submit] {
 @media (max-width: 1000px) {
     body {
       grid-template-columns: 20vw 60vw 20vw;
-      grid-template-rows: 15vh 25vh 50vh 30vh 25vh 5vh;
+      grid-template-rows: 15vh 25vh 50vh 30vh 50vh 5vh;
     }
 }
