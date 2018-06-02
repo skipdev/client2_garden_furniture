@@ -215,7 +215,7 @@ ul.navbar-nav {
 	}
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1000px) {
 	
 	h3 {
 	font-size: 30px;

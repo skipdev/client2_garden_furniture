@@ -59,7 +59,7 @@ input[type=submit] {
     grid-column: 1 / span 3;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1000px) {
     body {
       grid-template-columns: 20vw 60vw 20vw;
       grid-template-rows: 15vh 25vh 25vh 30vh 40vh 5vh;
