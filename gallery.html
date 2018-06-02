@@ -13,7 +13,7 @@
     <script src="juicebox_lite_1.5.0/web/jbcore/juicebox.js"></script>
 		<style type="text/css" media="screen">
 			.link-button{
-				color: white;
+				color: #333333;
 				font-weight: bold;
 				text-decoration: underline;
 				cursor: pointer;
@@ -24,10 +24,7 @@
 
 <body>
 
-<div id='image'>
-    <img
-    	src="images/gallery/3.jpg"
-    />
+<div id='image' class="parallax">
 </div> <!-- end image -->
 
 <div id="op"></div>
@@ -79,7 +76,7 @@ function loadGallery(base) {
 	new juicebox({
 		baseUrl : base,
 		containerId : 'juicebox-container',
-		backgroundColor: "rgba(0, 0, 0, 0.5)",
+		backgroundColor: '#333333',
 		galleryWidth: '100%',
 		galleryHeight: '95%',
 	});

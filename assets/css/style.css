@@ -138,7 +138,7 @@ ul.navbar-nav {
 	overflow: hidden;
 	padding: 0 25px 0px 25px;
 	background: #444;
-	background: rgba(0, 0, 0, 0.35);
+	background: rgba(0, 0, 0, 0.4);
 	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
 	text-align: left;
 }
@@ -166,7 +166,7 @@ ul.navbar-nav {
 .form-bottom {
 	padding: 15px 25px 30px 25px;
 	background: #444;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.4);
 	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
 	text-align: left;
 }
@@ -196,7 +196,7 @@ ul.navbar-nav {
 	.navbar-collapse { border: 0; }
 	.navbar-toggle { margin-top: 12px; }
 	
-	.inner-bg { padding: 40px 0 110px 0; }
+	.inner-bg { padding: 0 0 0 0; }
 	.top-content .top-big-link { margin-top: 25px; }
 	.top-content .top-big-link a.btn { margin-top: 10px; }
 
@@ -219,9 +219,5 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 	
-	/* logo */
-    .navbar-brand {
-    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 113px 32px !important;
-    }
 	
 }

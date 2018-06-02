@@ -1,6 +1,6 @@
 body {
   grid-template-columns: 20vw 60vw 20vw;
-  grid-template-rows: 15vh 20vh 30vh 25vh 25vh 5vh;
+  grid-template-rows: 15vh 20vh 30vh 25vh 60vh 5vh;
 }
 
 sidebar {
@@ -9,25 +9,13 @@ sidebar {
 }
 
 
-#image {
-    grid-row: 1 / span 5;
-    grid-column: 1 / span 3;
-}
-
-#op {
-    grid-row: 1 / span 5;
-    grid-column: 1 / span 3;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
 #contact-form {
     grid-column: 1 / span 3;
-    grid-row: 1 / span 3;
+    grid-row: 3 / span 3;
     margin-top: 10vh;
-    margin-bottom: 10vh;
     color: white;
     border-radius: 5px;
-    padding: 5vh;
+    padding: 10vh;
 }
 
 label {
@@ -72,13 +60,13 @@ input[type=submit] {
 @media (min-width: 1000px) {
     body {
       grid-template-columns: 20vw 60vw 20vw;
-      grid-template-rows: 15vh 25vh 25vh 25vh 5vh 5vh;
+      grid-template-rows: 15vh 25vh 25vh 30vh 40vh 5vh;
     }
 }
 
 @media (max-width: 1000px) {
     body {
       grid-template-columns: 20vw 60vw 20vw;
-      grid-template-rows: 15vh 25vh 50vh 40vh 5vh 5vh;
+      grid-template-rows: 15vh 25vh 50vh 30vh 25vh 5vh;
     }
 }
