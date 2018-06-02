@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     color: #888;
     line-height: 30px;
@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 h3 {
-	font-size: 22px;
+	font-size: 30px;
     font-weight: 300;
     color: #555;
     line-height: 30px;
@@ -202,10 +202,28 @@ ul.navbar-nav {
 
 }
 
-@media (max-width: 415px) {
+@media (max-width: 500px) {
 	
 	h1, h2 { font-size: 32px; }
+	
+	h3 {
+	font-size: 20px;
+	}
+	
+	body {
+	font-size: 15px;
+	}
+}
 
+@media (min-width: 1500px) {
+	
+	h3 {
+	font-size: 30px;
+	}
+	
+	body {
+	font-size: 20px;
+	}
 }
 
 

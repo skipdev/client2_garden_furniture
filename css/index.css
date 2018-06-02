@@ -54,19 +54,22 @@ button {
 }
 
 @media (max-width: 407px) {
+    body {
+        grid-template-rows: 15vh 25vh 25vh 25vh 50vh 5vh;
+    }
     #text1 {
         grid-row: 3;
-        margin-bottom: 7vh;
+        margin-bottom: 15vh;
     }
     #text2 {
         grid-row: 3;
-        margin-top: 15vh;
+        margin-top: 63vh;
     }
     #leaf {
         grid-row: 4;
         grid-column: 2;
         text-align: center;
-        margin-top: 12vh;
+        margin-top: 60vh;
         color: white;
     }
 }
