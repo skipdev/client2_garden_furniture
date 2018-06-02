@@ -31,9 +31,11 @@ sidebar {
     grid-row: 5;
     grid-column: 2;
     text-align: center;
-    font-weight: bold;
-    color: white;
     margin-top: 15vh;
+}
+
+a href {
+    color: white;
 }
 
 button {
@@ -41,6 +43,8 @@ button {
     background-color: #333333;
     text-decoration: none;
     border: none;
+    color: white;
+    font-weight: bold;
     padding: 2vh 4vw;
 }
 

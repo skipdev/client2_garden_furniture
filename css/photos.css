@@ -1,6 +1,6 @@
 body {
   grid-template-columns: 20vw 60vw 20vw;
-  grid-template-rows: 15vh 25vh 25vh 130vh 10vh;
+  grid-template-rows: 15vh 25vh 25vh 140vh 5vh;
 }
 
 sidebar {
@@ -9,10 +9,9 @@ sidebar {
 }
 
 #gallery {
-    grid-row: 4 / span 3;
+    grid-row: 4;
     grid-column: 1 / span 3;
     margin: 2%;
-    margin-top: 10vh;
 }
 
 #footer {
