@@ -25,9 +25,9 @@ sidebar {
     grid-column: 1 / span 3;
 }
 
-@media (max-width: 407px) {
+@media (max-width: 535px) {
     body {
-        grid-template-rows: 15vh 25vh 25vh 25vh 80vh 5vh;
+        grid-template-rows: 15vh 25vh 25vh 25vh 130vh 5vh;
     }
     #about {
         font-size: 15px;
