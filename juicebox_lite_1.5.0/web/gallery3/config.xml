@@ -3,455 +3,122 @@
 <juiceboxgallery
 	galleryTitle="Photos"
 >
-  <image imageURL="images/1.jpg"
-	thumbURL="images/1.jpg"
-	linkURL="images/.1jpg"
+  <image imageURL="images/1.JPG"
+	thumbURL="images/1.JPG"
+	linkURL="images/.1JPG"
 	linkTarget="_blank">
 	<title></title>
   </image>
-  <image imageURL="images/2.jpg"
-	thumbURL="images/2.jpg"
-	linkURL="images/2.jpg"
+  <image imageURL="images/2.JPG"
+	thumbURL="images/2.JPG"
+	linkURL="images/2.JPG"
 	linkTarget="_blank">
 	<caption></caption>
   </image>
-  <image imageURL="images/3.jpg"
-	thumbURL="images/3.jpg"
-	linkURL="images/3.jpg"
+  <image imageURL="images/3.JPG"
+	thumbURL="images/3.JPG"
+	linkURL="images/3.JPG"
 	linkTarget="_blank">
     <title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/4.jpg"
-	thumbURL="images/4.jpg"
-	linkURL="images/4.jpg"
+  <image imageURL="images/4.JPG"
+	thumbURL="images/4.JPG"
+	linkURL="images/4.JPG"
 	linkTarget="_blank">
 	<title></title>
 	<caption></caption>
   </image>
-  <image imageURL="images/5.jpg"
-	thumbURL="images/5.jpg"
-	linkURL="images/5.jpg"
+  <image imageURL="images/5.JPG"
+	thumbURL="images/5.JPG"
+	linkURL="images/5.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/6.jpg"
-	thumbURL="images/6.jpg"
-	linkURL="images/6.jpg"
+  <image imageURL="images/6.JPG"
+	thumbURL="images/6.JPG"
+	linkURL="images/6.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/7.jpg"
-	thumbURL="images/7.jpg"
-	linkURL="images/7.jpg"
+  <image imageURL="images/7.JPG"
+	thumbURL="images/7.JPG"
+	linkURL="images/7.JPG"
 	linkTarget="_blank">
     <caption></caption>
   </image>
-  <image imageURL="images/8.jpg"
-	thumbURL="images/8.jpg"
-	linkURL="images/8.jpg"
+  <image imageURL="images/8.JPG"
+	thumbURL="images/8.JPG"
+	linkURL="images/8.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/9.jpg"
-	thumbURL="images/9.jpg"
-	linkURL="images/9.jpg"
+  <image imageURL="images/9.JPG"
+	thumbURL="images/9.JPG"
+	linkURL="images/9.JPG"
 	linkTarget="_blank">
     <caption></caption>
   </image>
-  <image imageURL="images/10.jpg"
-	thumbURL="images/10.jpg"
-	linkURL="images/10.jpg"
+  <image imageURL="images/10.JPG"
+	thumbURL="images/10.JPG"
+	linkURL="images/10.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/11.jpg"
-	thumbURL="images/11.jpg"
-	linkURL="images/11.jpg"
+  <image imageURL="images/11.JPG"
+	thumbURL="images/11.JPG"
+	linkURL="images/11.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
-  <image imageURL="images/12.jpg"
-	thumbURL="images/12.jpg"
-	linkURL="images/12.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/13.jpg"
-	thumbURL="images/13.jpg"
-	linkURL="images/13.jpg"
+  <image imageURL="images/12.JPG"
+	thumbURL="images/12.JPG"
+	linkURL="images/12.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/14.jpg"
-	thumbURL="images/14.jpg"
-	linkURL="images/14.jpg"
-	linkTarget="_blank">
-    <caption></caption>
-  </image>
-  <image imageURL="images/15.jpg"
-	thumbURL="images/15.jpg"
-	linkURL="images/15.jpg"
+  <image imageURL="images/13.JPG"
+	thumbURL="images/13.JPG"
+	linkURL="images/13.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/16.jpg"
-	thumbURL="images/16.jpg"
-	linkURL="images/16.jpg"
+  <image imageURL="images/14.JPG"
+	thumbURL="images/14.JPG"
+	linkURL="images/14.JPG"
+	linkTarget="_blank">
+    <caption></caption>
+  </image>
+  <image imageURL="images/15.JPG"
+	thumbURL="images/15.JPG"
+	linkURL="images/15.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/17.jpg"
-	thumbURL="images/17.jpg"
-	linkURL="images/17.jpg"
+  <image imageURL="images/16.JPG"
+	thumbURL="images/16.JPG"
+	linkURL="images/16.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/18.jpg"
-	thumbURL="images/18.jpg"
-	linkURL="images/18.jpg"
+  <image imageURL="images/17.JPG"
+	thumbURL="images/17.JPG"
+	linkURL="images/17.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/19.jpg"
-	thumbURL="images/19.jpg"
-	linkURL="images/19.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/20.jpg"
-	thumbURL="images/20.jpg"
-	linkURL="images/20.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/21.jpg"
-	thumbURL="images/21.jpg"
-	linkURL="images/21.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/22.jpg"
-	thumbURL="images/22.jpg"
-	linkURL="images/22.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-</juiceboxgallery>
-
-<juiceboxgallery
-	galleryTitle="Photos"
->
-  <image imageURL="images/1.jpg"
-	thumbURL="images/1.jpg"
-	linkURL="images/.1jpg"
-	linkTarget="_blank">
-	<title></title>
-  </image>
-  <image imageURL="images/2.jpg"
-	thumbURL="images/2.jpg"
-	linkURL="images/2.jpg"
-	linkTarget="_blank">
-	<caption></caption>
-  </image>
-  <image imageURL="images/3.jpg"
-	thumbURL="images/3.jpg"
-	linkURL="images/3.jpg"
-	linkTarget="_blank">
-    <title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/4.jpg"
-	thumbURL="images/4.jpg"
-	linkURL="images/4.jpg"
-	linkTarget="_blank">
-	<title></title>
-	<caption></caption>
-  </image>
-  <image imageURL="images/5.jpg"
-	thumbURL="images/5.jpg"
-	linkURL="images/5.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/6.jpg"
-	thumbURL="images/6.jpg"
-	linkURL="images/6.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/7.jpg"
-	thumbURL="images/7.jpg"
-	linkURL="images/7.jpg"
-	linkTarget="_blank">
-    <caption></caption>
-  </image>
-  <image imageURL="images/8.jpg"
-	thumbURL="images/8.jpg"
-	linkURL="images/8.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/9.jpg"
-	thumbURL="images/9.jpg"
-	linkURL="images/9.jpg"
-	linkTarget="_blank">
-    <caption></caption>
-  </image>
-  <image imageURL="images/10.jpg"
-	thumbURL="images/10.jpg"
-	linkURL="images/10.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/11.jpg"
-	thumbURL="images/11.jpg"
-	linkURL="images/11.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  <image imageURL="images/12.jpg"
-	thumbURL="images/12.jpg"
-	linkURL="images/12.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/13.jpg"
-	thumbURL="images/13.jpg"
-	linkURL="images/13.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/14.jpg"
-	thumbURL="images/14.jpg"
-	linkURL="images/14.jpg"
-	linkTarget="_blank">
-    <caption></caption>
-  </image>
-  <image imageURL="images/15.jpg"
-	thumbURL="images/15.jpg"
-	linkURL="images/15.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/16.jpg"
-	thumbURL="images/16.jpg"
-	linkURL="images/16.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/17.jpg"
-	thumbURL="images/17.jpg"
-	linkURL="images/17.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/18.jpg"
-	thumbURL="images/18.jpg"
-	linkURL="images/18.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/19.jpg"
-	thumbURL="images/19.jpg"
-	linkURL="images/19.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/20.jpg"
-	thumbURL="images/20.jpg"
-	linkURL="images/20.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/21.jpg"
-	thumbURL="images/21.jpg"
-	linkURL="images/21.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/22.jpg"
-	thumbURL="images/22.jpg"
-	linkURL="images/22.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-</juiceboxgallery>
-<juiceboxgallery
-	galleryTitle="Photos"
->
-  <image imageURL="images/1.jpg"
-	thumbURL="images/1.jpg"
-	linkURL="images/.1jpg"
-	linkTarget="_blank">
-	<title></title>
-  </image>
-  <image imageURL="images/2.jpg"
-	thumbURL="images/2.jpg"
-	linkURL="images/2.jpg"
-	linkTarget="_blank">
-	<caption></caption>
-  </image>
-  <image imageURL="images/3.jpg"
-	thumbURL="images/3.jpg"
-	linkURL="images/3.jpg"
-	linkTarget="_blank">
-    <title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/4.jpg"
-	thumbURL="images/4.jpg"
-	linkURL="images/4.jpg"
-	linkTarget="_blank">
-	<title></title>
-	<caption></caption>
-  </image>
-  <image imageURL="images/5.jpg"
-	thumbURL="images/5.jpg"
-	linkURL="images/5.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/6.jpg"
-	thumbURL="images/6.jpg"
-	linkURL="images/6.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/7.jpg"
-	thumbURL="images/7.jpg"
-	linkURL="images/7.jpg"
-	linkTarget="_blank">
-    <caption></caption>
-  </image>
-  <image imageURL="images/8.jpg"
-	thumbURL="images/8.jpg"
-	linkURL="images/8.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/9.jpg"
-	thumbURL="images/9.jpg"
-	linkURL="images/9.jpg"
-	linkTarget="_blank">
-    <caption></caption>
-  </image>
-  <image imageURL="images/10.jpg"
-	thumbURL="images/10.jpg"
-	linkURL="images/10.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/11.jpg"
-	thumbURL="images/11.jpg"
-	linkURL="images/11.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  <image imageURL="images/12.jpg"
-	thumbURL="images/12.jpg"
-	linkURL="images/12.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/13.jpg"
-	thumbURL="images/13.jpg"
-	linkURL="images/13.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/14.jpg"
-	thumbURL="images/14.jpg"
-	linkURL="images/14.jpg"
-	linkTarget="_blank">
-    <caption></caption>
-  </image>
-  <image imageURL="images/15.jpg"
-	thumbURL="images/15.jpg"
-	linkURL="images/15.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/16.jpg"
-	thumbURL="images/16.jpg"
-	linkURL="images/16.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/17.jpg"
-	thumbURL="images/17.jpg"
-	linkURL="images/17.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/18.jpg"
-	thumbURL="images/18.jpg"
-	linkURL="images/18.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/19.jpg"
-	thumbURL="images/19.jpg"
-	linkURL="images/19.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/20.jpg"
-	thumbURL="images/20.jpg"
-	linkURL="images/20.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/21.jpg"
-	thumbURL="images/21.jpg"
-	linkURL="images/21.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/22.jpg"
-	thumbURL="images/22.jpg"
-	linkURL="images/22.jpg"
+  <image imageURL="images/18.JPG"
+	thumbURL="images/18.JPG"
+	linkURL="images/18.JPG"
 	linkTarget="_blank">
 	<title></title>
     <caption></caption>

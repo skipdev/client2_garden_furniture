@@ -8,6 +8,9 @@ sidebar {
     grid-column: 1 / span 3;
 }
 
+#maintext {
+    margin-top: 19vh;
+}
 
 #contact-form {
     grid-column: 1 / span 3;

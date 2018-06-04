@@ -29,8 +29,19 @@ body {
     background-color: rgba(0,0,0, 0.1);
 }
 
+#maintext {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+    margin-top: 15vh;
+    color: rgba(255, 255, 255, 0.85);
+    z-index: 12;
+    font-weight: bold;
+    font-size: 70px;
+}
+
 .parallax {
-    background-image: url("3.jpg");
+    background-image: url("1.JPG");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

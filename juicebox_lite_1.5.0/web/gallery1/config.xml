@@ -285,43 +285,4 @@
 	<title></title>
     <caption></caption>
   </image>
-  <image imageURL="images/43.jpg"
-	thumbURL="images/43.jpg"
-	linkURL="images/43.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/44.jpg"
-	thumbURL="images/44.jpg"
-	linkURL="images/44.jpg"
-	linkTarget="_blank">
-	<title></title>
-    <caption></caption>
-  <image imageURL="images/45.jpg"
-	thumbURL="images/45.jpg"
-	linkURL="images/.45jpg"
-	linkTarget="_blank">
-	<title></title>
-  </image>
-  <image imageURL="images/46.jpg"
-	thumbURL="images/46.jpg"
-	linkURL="images/46.jpg"
-	linkTarget="_blank">
-	<caption></caption>
-  </image>
-  <image imageURL="images/47.jpg"
-	thumbURL="images/47.jpg"
-	linkURL="images/47.jpg"
-	linkTarget="_blank">
-    <title></title>
-    <caption></caption>
-  </image>
-  <image imageURL="images/48.jpg"
-	thumbURL="images/48.jpg"
-	linkURL="images/48.jpg"
-	linkTarget="_blank">
-	<title></title>
-	<caption></caption>
-	</image>
 </juiceboxgallery>
