@@ -26,6 +26,9 @@ body {
     grid-row: 1;
     text-align: center;
     vertical-align: center;
+    z-index: 15;
+    width: 300px;
+    height: 230px;
 }
 
 #op {
@@ -212,12 +215,4 @@ body {
         margin-right: 1vw;
         padding-left: 0;
     }
-}
-
-@media (min-width: 1100px) {
-   .logo {
-        width: 300px;
-        height: 230px;
-        z-index: 15;
-   }
 }

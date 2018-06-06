@@ -148,6 +148,9 @@ iframe {
     #contact-form {
         margin-bottom: 10vh;
     }
+    #ins {
+        margin-top: 1vh;
+    }
 }
 
 @media (min-width: 535px) {
@@ -162,8 +165,8 @@ iframe {
 }
 }
 
-@media screen and (max-width: 1100px) {
-    .logo {
-        display: none;
-    }
+@media (max-width: 600px) {
+   .logo {
+       display: none;
+   }
 }
