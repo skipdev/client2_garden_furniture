@@ -1,6 +1,6 @@
 body {
   grid-template-columns: 20vw 60vw 20vw;
-  grid-template-rows: 15vh 20vh 30vh 25vh 60vh 5vh;
+  grid-template-rows: 15vh 20vh 30vh 25vh 60vh 20vh 20vh 5vh;
 }
 
 sidebar {
@@ -57,24 +57,86 @@ input[type=submit] {
     border-radius: 5px;
 }
 
-#footer {
+main {
     grid-row: 7;
+    grid-column: 1 / span 3;
+    margin-top: 30vh;
+}
+
+iframe {
+    height: 100%;
+    width: 98%;
+}
+
+#address {
+    grid-row: 6;
+    grid-column: 2;
+    text-align: left;
+    margin-left: -12vw;
+    margin-right: 30vw;
+    margin-top: -20vh;
+}
+
+.social {
+    grid-row: 6;
+    grid-column: 2;
+    text-align: right;
+    margin-left: 65vw;
+    margin-top: -12vh;
+}
+
+#ins {
+    margin-top: 2vh;
+}
+
+#footer {
+    grid-row: 9;
     grid-column: 1 / span 3;
 }
 
 @media (min-width: 1000px) {
     body {
       grid-template-columns: 20vw 60vw 20vw;
-      grid-template-rows: 15vh 25vh 25vh 30vh 40vh 5vh;
+      grid-template-rows: 15vh 25vh 50vh 30vh 15vh 10vh 70vh 5vh;
+    }
+    #address {
+        text-align: center;
+        margin-top: 1vh!important;
+        grid-row: 7;
+        grid-column: 2;
+    }
+    .social {
+        text-align: center;
+        grid-row: 6;
+        grid-column: 2;
+        margin-top: 0vh!important;
+    }
+    #fb {
+        margin-right: 10vw!important;
+    }
+    #ins {
+        margin-top: 0vh!important;
+        margin-left: 10vw!important;
     }
 }
 
 @media (max-width: 1000px) {
     body {
       grid-template-columns: 20vw 60vw 20vw;
-      grid-template-rows: 15vh 25vh 50vh 30vh 60vh 5vh;
+      grid-template-rows: 15vh 25vh 50vh 30vh 60vh 5vh 70vh 5vh;
     }
 }
+
+@media (min-width: 768px) {
+    #address {
+        margin: 0;
+    }
+    
+    .social {
+        margin: 0;
+    }
+}
+
 
 @media (max-width: 535px) {
     body {
@@ -85,5 +147,23 @@ input[type=submit] {
     }
     #contact-form {
         margin-bottom: 10vh;
+    }
+}
+
+@media (min-width: 535px) {
+.social {
+    margin-top: 3vh;
+}
+#ins {
+    margin-top: 16vh;
+}
+#address {
+    margin-top: -5vh;
+}
+}
+
+@media screen and (max-width: 1100px) {
+    .logo {
+        display: none;
     }
 }

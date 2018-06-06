@@ -21,6 +21,11 @@ body {
     color: white;
 }
 
+.logo {
+    grid-column: 1;
+    grid-row: 1;
+}
+
 #op {
     grid-row: 1 / span 5;
     grid-column: 1 / span 3;
@@ -189,21 +194,28 @@ body {
         margin-top: 3vh;
     }
 }
-
 @media screen and (max-width: 1526px) {
     .topnav {
         padding-bottom: 4vh;
     }
     .topnav ul {
-        text-align: center;
+        text-align: right;
         padding-top: 5vh;
         margin-left: -5vw;
-        margin-right: -5vw;
+        margin-right: 8vw;
     }
     .topnav ul li {
-        text-align: center;
+        text-align: right;
         margin-left: -2vw;
         margin-right: 1vw;
         padding-left: 0;
     }
+}
+
+@media (min-width: 1100px) {
+   .logo {
+        width: 300px;
+        height: 230px;
+        z-index: 15;
+   }
 }

@@ -9,6 +9,14 @@ sidebar {
     grid-column: 1 / span 3;
 }
 
+.logo {
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 15;
+    width: 200px;
+    height: 150px;
+}
+
 #text1, #text2 {
     grid-column: 1 / span 3;
     color: #333333;
@@ -76,9 +84,39 @@ button {
 
 @media (min-width: 1100px) {
    #text1, #text2 {
-    font-size: 50px;
+        font-size: 50px;
    }
    #text1 {
-       margin-bottom: 50vh;
+        margin-bottom: 50vh;
    }
+}
+
+@media (max-width: 970px) {
+    #maintext {
+        font-size: 50px;
+        grid-column: 1 / span 3;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 270px;
+        height: 200px;
+        grid-column: 1 / span 3;
+        margin-left: 4vw;
+    }
+}
+
+@media screen and (max-width: 600) {
+.logo {
+        grid-row: 2;
+        grid-column: 2;
+        text-align: center;
+        margin-top: 1vh;
+        width: 300px;
+        height: 230px;
+    }
+    #maintext {
+        display: none;
+    }
 }
