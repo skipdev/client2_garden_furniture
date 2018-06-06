@@ -89,6 +89,12 @@ iframe {
     margin-top: 2vh;
 }
 
+#landline {
+    grid-row: 6;
+    grid-column: 2;
+    margin-top: 20vh;
+    font-size: 20px;
+}
 #footer {
     grid-row: 9;
     grid-column: 1 / span 3;
@@ -97,7 +103,7 @@ iframe {
 @media (min-width: 1000px) {
     body {
       grid-template-columns: 20vw 60vw 20vw;
-      grid-template-rows: 15vh 25vh 50vh 30vh 15vh 10vh 70vh 5vh;
+      grid-template-rows: 15vh 25vh 50vh 40vh 10vh 30vh 70vh 5vh;
     }
     #address {
         text-align: center;
@@ -114,11 +120,14 @@ iframe {
     }
     #fb {
         margin-right: 10vw!important;
-        margin-top: 5vh!important;
+        margin-top: 10vh!important;
     }
     #ins {
-        margin-top: 5vh!important;
+        margin-top: 10vh!important;
         margin-left: 10vw!important;
+    }
+    #landline {
+        font-size: 30px;
     }
 }
 
@@ -164,6 +173,9 @@ iframe {
 }
 #address {
     margin-top: -5vh;
+}
+#landline {
+    margin-top: 28vh;
 }
 }
 
