@@ -104,6 +104,7 @@ iframe {
         margin-top: 1vh!important;
         grid-row: 7;
         grid-column: 2;
+        margin-top: 5vh!important;
     }
     .social {
         text-align: center;
@@ -113,9 +114,10 @@ iframe {
     }
     #fb {
         margin-right: 10vw!important;
+        margin-top: 5vh!important;
     }
     #ins {
-        margin-top: 0vh!important;
+        margin-top: 5vh!important;
         margin-left: 10vw!important;
     }
 }

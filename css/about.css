@@ -53,7 +53,7 @@ ul {
 
 @media (min-width: 1100px) {
     body {
-        grid-template-rows: 15vh 25vh 25vh 25vh 160vh 5vh;
+        grid-template-rows: 15vh 25vh 25vh 25vh 200vh 5vh;
     }
     #about {
         font-size: 18px;
